@@ -2,6 +2,15 @@ import tensorflow as tf
 
 print(tf.test.is_gpu_available())
 print(tf.__version__)
+import tensorflow as tf
+sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+import platform
+import keras
+
+print("Platform: {}".format(platform.platform()))
+print("Tensorflow version: {}".format(tf.__version__))
+print("Keras version: {}".format(keras.__version__))
+
 # 返回当前设备索引
 
 # import torch
