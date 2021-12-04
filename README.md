@@ -11,6 +11,6 @@ notebooks的文件路径未修改，修改成data内的数据即可
 
 ### AlexNet模型
 
-### VGG模型
+### VGG16模型 & VGG16+BN模型
 
 ### 蚂蚁蜜蜂分类
